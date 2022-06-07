@@ -28,3 +28,7 @@ def about(request):
         'title': "About"
     }
     return render(request, 'blog/about.html', context=context)
+
+
+def bootstrap(request):
+    return render(request)
