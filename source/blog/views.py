@@ -31,4 +31,4 @@ def about(request):
 
 
 def bootstrap(request):
-    return render(request)
+    return render(request, 'blog/bootstrap.html')
